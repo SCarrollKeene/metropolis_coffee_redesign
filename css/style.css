@@ -54,6 +54,20 @@ body {
     font-weight: 300;
 }
 
+.location {
+    display: flex;
+    justify-content: space-evenly;
+    height: 900px;
+}
+
+.card {
+    border: none;
+}
+
+.location-bold {
+    font-weight: 700;
+}
+
 .footer {
     display: flex;
     justify-content: center;
