@@ -2,6 +2,23 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+.navBackground {
+    background-image: url(../img/metropolis-logo-circle.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.landing {
+    background-image: url(../img/coffee-beans.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    height: 800px;
+    max-width: 100%;
+}
+
 .footer {
     display: flex;
     justify-content: center;
