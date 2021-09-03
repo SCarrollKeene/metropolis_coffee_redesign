@@ -1,0 +1,23 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #B1C4B7;
+    
+    height: 250px;
+    max-width: 100%;
+    font-size: 24px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer a:hover {
+    color: whitesmoke;
+}
