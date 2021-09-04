@@ -18,5 +18,21 @@ body, html {
     height: 145px;
     margin-left: 40%;
 }
-    
+.body {
+    display: inline-block;
+    text-align: center;
+}
+.hero-image {
+    position: relative;
+}
+
+.hero-text {
+  bottom: 20px;
+  right: 20px;
+  background-color:white;
+  opacity: 80%;
+  color: black;
+  padding-left: 20px;
+  padding-right: 20px;
+}
       
