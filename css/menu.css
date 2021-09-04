@@ -51,17 +51,38 @@ body, html {
     padding: 40px;
     column-rule-style: solid;
 }
+
 .our-coffee {
+    background-color: #A9714C;
     text-align: center;
-    padding-left: ;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.our-coffee-title {
+    font-size: 30px;
+    color: white;
+    text-align: left;
+    padding: 40px;
+}
+.our-coffee-body {
+    color: black;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: white;
+
+}
+.our-coffee-image {
+    text-align: right;
 }
 
-.container container-lg footer {
+.footer {
     margin-top: 100px;
+    background-color: #B1C4B7;
+    color:white;
 }
-
 
 .footer-logo {
-    margin-top: 30px;
+    text-align: justify;
+    margin-top: 100px;
     left: 20px;
 }
