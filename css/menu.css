@@ -16,6 +16,11 @@ body, html {
   color: white;
 }
 
+.hero-image {
+    width: 100%;
+
+}
+
 .hero-text {
   position: absolute;
   top: 30%;
@@ -58,12 +63,14 @@ body, html {
     padding-left: 50px;
     padding-right: 50px;
 }
+
 .our-coffee-title {
     font-size: 30px;
     color: white;
     text-align: left;
     padding: 40px;
 }
+
 .our-coffee-body {
     color: black;
     padding-left: 40px;
@@ -71,8 +78,10 @@ body, html {
     background-color: white;
 
 }
+
 .our-coffee-image {
     text-align: right;
+    margin-right: 50px;
 }
 
 .footer {
