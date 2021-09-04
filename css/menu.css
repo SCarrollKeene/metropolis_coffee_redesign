@@ -7,18 +7,19 @@ body, html {
 
 
 .logo {
-    margin-top: 5%;
-    margin-right: 40%;
-    margin-left: 40%;
+    position: relative;
+  text-align: center;
+  color: white;
     
 }
     .hero-image {
         margin-bottom: 80%;
         height: 50%;
-        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("coffeebean.png");
-
       }
+
     .hero-text {
+        font-size: 20px;
+        text-align: center;
         position: absolute;
         bottom: 20px;
         right: 20px;
