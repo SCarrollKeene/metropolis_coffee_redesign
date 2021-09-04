@@ -22,16 +22,18 @@ body, html {
     text-align: center;
 }
 .hero-image {
-    margin-top: 50px;
+    background-attachment: scroll;
+    padding: 20px;  
    
 }
 
 .hero-text {
+  background-image: url(./img/coffee1.png);
   bottom: 20px;
   right: 20px;
-  background-color:white;
-  opacity: 80%;
+  background-color:white ();
   color: black;
+  opacity: 75%;
   padding-left: 20px;
   padding-right: 20px;
   text-align: center;
@@ -41,11 +43,19 @@ body, html {
 
 .menu-section {
  text-align: center;
- background-color:#B1C4B7;
- opacity: 80%;
  color: black;
+ background: #B1C4B7;
+ padding: 20px;
+ text-align: center;
+ font-size: 26px;
+
 }
 
 .menu-items {
     flex-direction: column;
+}
+
+.container container-lg footer {
+    background-color:#B1C4B7 ;
+
 }
