@@ -16,18 +16,41 @@ body, html {
   color: white;
 }
 
+.hero-body img {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: scroll;
+    
+    height: 840px;
+    width: 100%;
+}
+
+.hero-text h1 {
+    font-size: 36px;
+    font-weight: 700;
+}
+
 .hero-text {
-  position: absolute;
-  top: 30%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-color:white;
-  opacity: 75%;
-  color: black;
-  text-align: center;
-  padding-left:100px;
-  padding-right: 100px;
-  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    font-size: 24px;
+    font-weight: 300;
+    background-color:white;
+    opacity: 75%;
+    color: black;
+    text-align: center;
+    margin: 0 auto;
+    padding: 40px;
+    height: 700px;
+    width: 75%;
 }
 
 .menu-section {
