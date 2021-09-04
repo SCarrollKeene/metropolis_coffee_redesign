@@ -16,21 +16,6 @@ body, html {
   color: white;
 }
 
-.hero-body img {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-attachment: scroll;
-    
-    height: 840px;
-    width: 100%;
-}
-
-.hero-text h1 {
-    font-size: 36px;
-    font-weight: 700;
-}
-
 .hero-text {
     display: flex;
     flex-direction: column;
@@ -81,12 +66,14 @@ body, html {
     padding-left: 50px;
     padding-right: 50px;
 }
+
 .our-coffee-title {
     font-size: 30px;
     color: white;
     text-align: left;
     padding: 40px;
 }
+
 .our-coffee-body {
     color: black;
     padding-left: 40px;
@@ -94,8 +81,10 @@ body, html {
     background-color: white;
 
 }
+
 .our-coffee-image {
     text-align: right;
+    margin-right: 50px;
 }
 
 .footer {
