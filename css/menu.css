@@ -4,40 +4,25 @@ body, html {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-.nav flex-column {
-    width: 200px;
-    display: block;
-    padding: 12px;
+.logo {
+   text-align: center;
+   margin-top: 20px;
+   margin-bottom: 20px;
 }
 
-.logo {
-    display:inline-block;
-    padding-left: 20px;
-    padding-top: 13px;
-    width: 100%;
-    height: 145px;
-    margin-left: 40%;
+.hero-body {
+ background-image: url(./img/coffee1.png);
 }
-.body {
-    text-align: center;
-}
+
 .hero-image {
-    background-attachment: scroll;
-    padding: 20px;  
-   
+    display: absolute;
 }
 
 .hero-text {
-  background-image: url(./img/coffee1.png);
-  bottom: 20px;
-  right: 20px;
-  background-color:white ();
+  background-color:white;
+  opacity: 90%;
   color: black;
-  opacity: 75%;
-  padding-left: 20px;
-  padding-right: 20px;
   text-align: center;
-  position: absolute;
   
 }
 
