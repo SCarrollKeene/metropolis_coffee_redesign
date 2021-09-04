@@ -50,7 +50,7 @@
     <div class="container container-lg location">
         <div class="row justify-content-center">
 
-            <h1 class="fs-1 text-center location-bold">Locations</h1>
+            <h1 class="fs-1 text-center header-style location-placement">Locations</h1>
 
             <div class="col-4">
                 <div class="card" style="width: 25rem;">
@@ -95,34 +95,40 @@
     <div class="container container-lg featured">
         <div class="row">
 
-            <h1 class="fs-1 text-center">Featured Art</h1>
-
-            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-indicators">
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <div class="featured-section">
+            <div class="featured-copy">
+              <h1 class="fs-1 text-center header-style">Featured Art</h1>
+              <p class="text-center">We love our local artists here at Metropolis, which is why we rotate the art on display at each of our locations. Below are some of our featured artists. Swing by any of our locations for a cup of coffee and some cool art!</p>
+              <p class="text-center fst-italic">If you are interested in hanging your art in one of the Metropolis locations, please email us at metropolisdenverart@gmail.com with examples of your work!</p>
+            </div>
+  
+              <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  </div>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="./img/art-1.jpg" class="d-block w-100" alt="Art 1">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="./img/art-1.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="./img/art-1.jpg" class="d-block w-100" alt="...">
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
                 </div>
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img src="./img/art-1.jpg" class="d-block w-100" alt="Art 1">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="./img/art-1.jpg" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="./img/art-1.jpg" class="d-block w-100" alt="...">
-                  </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
-              </div>
+          </div>
 
         </div>
     </div>

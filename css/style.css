@@ -64,8 +64,43 @@ body {
     border: none;
 }
 
-.location-bold {
+.header-style {
+    color: #2A402C;
     font-weight: 700;
+}
+
+.location-placement {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.featured {
+    display: flex;
+    align-items: center;
+    height: 1200px;
+}
+
+.featured-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.featured-copy {
+    display: flex;
+    flex-direction: column;
+
+    padding: 10px;
+}
+
+.featured p {
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.carousel img {
+    width: 80%;
 }
 
 .footer {
