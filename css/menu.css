@@ -51,15 +51,16 @@ body, html {
     height: 700px;
     width: 75%;
 }
+.row {
+    display: flex;
+}
 
 .menu-section {
  margin-top:100px;
  margin-bottom: 100px;
  text-align: center;
  color: black;
- font-style: bold;
  background: #B1C4B7;
- opacity: 70%;
  padding: 20px;
  text-align: center;
  font-size: 26px;
@@ -68,13 +69,15 @@ body, html {
 
 .menu-items {
     column-count: 2;
-    column-gap: 50px;
+    column-gap: 40px;
     font-size: 20px;
     padding: 40px;
     column-rule-style: solid;
 }
 
+
 .our-coffee {
+    position:absolute;
     background-color: #A9714C;
     text-align: center;
     padding-left: 50px;
