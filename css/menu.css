@@ -103,10 +103,9 @@ body, html {
 }
 
 .our-coffee-body {
-    color: black;
-    padding-left: 40px;
-    padding-right: 40px;
+    position: absolute;
     background-color: white;
+    color: black;
 
 }
 
