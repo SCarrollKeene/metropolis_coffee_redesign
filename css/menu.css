@@ -92,11 +92,11 @@ body, html {
     background-color: #A9714C;
     text-align: center;
     padding-left: 50px;
-    padding-right: 50px;
 }
 
 .our-coffee-title {
     font-size: 30px;
+    font-weight: bold;
     color: white;
     text-align: left;
     padding: 40px;
@@ -104,15 +104,32 @@ body, html {
 
 .our-coffee-body {
     display: grid;
-    margin-left: 50px;
-    margin-right: 50px;
+    padding:20px;
+    font-size: 20px;
+    margin-right: 400px;
     background-color: white;
+    opacity: 70%;
     color: black;
 }
 
 .our-coffee-image {
     text-align: right;
 
+}
+
+button {
+  background-color: white;
+  border: none;
+  color: black;
+  padding: 10px;
+  
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+  margin-right: 400px;
 }
 
 .footer {
