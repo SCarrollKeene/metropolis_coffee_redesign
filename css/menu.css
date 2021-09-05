@@ -51,33 +51,44 @@ body, html {
     height: 700px;
     width: 75%;
 }
-.row {
-    display: flex;
-}
 
 .menu-section {
- margin-top:100px;
- margin-bottom: 100px;
- text-align: center;
- color: black;
- background: #B1C4B7;
- padding: 20px;
- text-align: center;
- font-size: 26px;
+  margin-top:100px;
+  margin-bottom: 100px;
+  text-align: center;
+  color: black;
+  background: #B1C4B7;
+  padding: 20px;
 
+}
+
+.big-fonts {
+  font-weight: bolder;
+  font-size: 24px;
+  margin-top: 60px;
+  margin-bottom:30px;
+}
+
+.first-column {
+  padding: 20px;
+}
+
+.second-column {
+    padding: 20px;
 }
 
 .menu-items {
     column-count: 2;
     column-gap: 40px;
-    font-size: 20px;
-    padding: 40px;
     column-rule-style: solid;
 }
 
+.menu-items p {
+     font-size: 18px;
+
+}
 
 .our-coffee {
-    position:absolute;
     background-color: #A9714C;
     text-align: center;
     padding-left: 50px;
