@@ -179,6 +179,12 @@ body {
     padding: 8px 50px;
 }
 
+.shop-btn:hover {
+    background-color: #B1C4B7;
+    color: #2A402C;
+    border: 1px solid #B1C4B7;
+}
+
 .footer {
     display: flex;
     justify-content: space-evenly;
