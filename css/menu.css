@@ -4,7 +4,6 @@ body, html {
     display: block;
 
     font-size: 1rem;
-    font-weight: 400;
     line-height: 1.5;
     color: #212529;
     background-color: #fff;
@@ -14,6 +13,30 @@ body, html {
 
 ::after, ::before {
     box-sizing: border-box;
+}
+
+/* Header Nav Styling */
+.navBackground {
+    background-image: url(../img/metropolis-logo-circle.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 300px;
+    height: 460px;
+    font-size: 25px;
+    padding-left: 40px;
+    padding-top: 40px;
+}
+
+.navBackground a {
+    font-weight: 300;
+    color: #000;
+}
+
+.navBackground a:hover {
+    text-decoration: underline;
+    text-decoration-color: #A9714C;
+    color: #000;
+
 }
 
 .main-logo {
@@ -145,13 +168,37 @@ button {
 }
 
 .footer {
-    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
     background-color: #B1C4B7;
-    color:white;
+    
+    height: 200px;
+    max-width: 100%;
+    font-size: 24px;
+}
+
+.footer-logo img {
+    width: 150px;
 }
 
 .footer-logo {
-    text-align: justify;
-    margin-top: 100px;
-    left: 20px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: flex-end;
+    align-self: center;
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+}
+
+.footer a:hover {
+    color: whitesmoke;
 }
