@@ -167,6 +167,7 @@ body {
     display: flex;
     align-self: center;
     font-family: 'open-sans', sans-serif;
+    cursor: pointer;
     font-size: 18px;
     font-weight: 600;
     color: #2A402C;
