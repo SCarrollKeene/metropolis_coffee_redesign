@@ -6,16 +6,15 @@ body {
     background-image: url(../img/metropolis-logo-circle.png);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 450px;
-    height: 600px;
-    font-size: 27px;
+    background-size: 300px;
+    height: 460px;
+    font-size: 25px;
     padding-left: 40px;
     padding-top: 40px;
 }
 
 .navBackground a {
-    font-weight: 400;
-    padding: 17px;
+    font-weight: 300;
     color: #000;
 }
 
@@ -116,10 +115,6 @@ body {
     font-weight: 300;
 }
 
-.carousel img {
-    width: 80%;
-}
-
 .shop-online-stack {
     display: flex;
     flex-direction: column;
@@ -189,13 +184,13 @@ body {
     justify-content: space-evenly;
     background-color: #B1C4B7;
     
-    height: 300px;
+    height: 200px;
     max-width: 100%;
     font-size: 24px;
 }
 
 .footer-logo img {
-    width: 200px;
+    width: 150px;
 }
 
 .footer-logo {
@@ -206,7 +201,7 @@ body {
 
 .footer-nav {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: flex-end;
     align-self: center;
 }
 
