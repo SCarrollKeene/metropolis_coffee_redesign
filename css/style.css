@@ -3,17 +3,27 @@ body {
 }
 
 .navBackground {
-    background-image: url(...);
+    background-image: url(../img/metropolis-logo-circle.png);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
-    height: 420px;
-    font-size: 24px;
+    background-size: 450px;
+    height: 600px;
+    font-size: 27px;
+    padding-left: 40px;
+    padding-top: 40px;
 }
 
 .navBackground a {
-    font-weight: 300;
+    font-weight: 400;
+    padding: 17px;
     color: #000;
+}
+
+.navBackground a:hover {
+    text-decoration: underline;
+    text-decoration-color: #A9714C;
+    color: #000;
+
 }
 
 .landing {
