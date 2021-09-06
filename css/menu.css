@@ -1,7 +1,19 @@
 body, html {
-    height: 100%;
     margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    display: block;
+
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
+
+::after, ::before {
+    box-sizing: border-box;
 }
 
 .main-logo {
@@ -92,11 +104,11 @@ body, html {
     background-color: #A9714C;
     text-align: center;
     padding-left: 50px;
-    padding-right: 50px;
 }
 
 .our-coffee-title {
     font-size: 30px;
+    font-weight: bold;
     color: white;
     text-align: left;
     padding: 40px;
@@ -104,15 +116,32 @@ body, html {
 
 .our-coffee-body {
     display: grid;
-    margin-left: 50px;
-    margin-right: 50px;
+    padding: 40px;
+    font-size: 20px;
+    margin-right: 400px;
     background-color: white;
+    opacity: 80%;
     color: black;
 }
 
 .our-coffee-image {
-    text-align: right;
+   
 
+}
+
+button {
+    background-color: white;
+    margin: 100px 0 0 100px;
+    margin-left: 250px;
+    margin-top: 100px;
+    height: 80px;
+    width: 200px;
+    
+    border-radius: 10px;
+    font-size: 22px;
+    display: grid;
+    place-content: center;
+    box-shadow: 8px 10px 10px 1px rgba(0,0,0,0.5);
 }
 
 .footer {
