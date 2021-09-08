@@ -145,9 +145,8 @@ body {
 .our-coffee {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     text-align: center;
-    display: flex;
-    flex-direction: column;
     height: 1200px;
 }
 
@@ -160,6 +159,8 @@ body {
 .our-coffee-section {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
     background-color: #A9714C;
     margin: 40px;
 }
@@ -175,7 +176,7 @@ body {
     font-weight: 300;
     background-color: rgb(255, 255, 255, 0.6);
     color: black;
-    width: 50%;
+    width: 500px;
     height: 600px;
 }
 
@@ -187,7 +188,6 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: scroll;
-    width: 50%;
 }
 
 .our-coffee-image img {
