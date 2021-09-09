@@ -101,9 +101,9 @@ body {
 }
 
 .big-fonts {
-  font-size: 24px;
-  margin-top: 60px;
-  margin-bottom:30px;
+    font-size: 24px;
+    margin-top: 60px;
+    margin-bottom:30px;
 }
 
 /*
@@ -154,6 +154,7 @@ body {
     align-items: center;
     text-align: center;
     height: 1200px;
+    margin: 40px;
 }
 
 .our-coffee-title {
@@ -190,12 +191,17 @@ body {
 }
 
 .our-coffee-image {
-    background-image: url(../img/Our.coffee.png);
+    display: flex;
+    justify-content: flex-start;
+}
+
+.our-coffee-image img {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: scroll;
     width: 50%;
+    
 }
 
 .shop-btn {
