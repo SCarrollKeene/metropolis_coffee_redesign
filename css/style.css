@@ -143,7 +143,7 @@ body {
 .shop-img-bottom {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
 
     background-color: #A9714C;
