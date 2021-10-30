@@ -281,6 +281,13 @@ body {
 }
 
 @media only screen and (max-width: 480px) {
+    .hero-body img {
+        max-width: 100%;
+    }
+    .hero-text {
+        font-size: 14px;
+        max-width: 90%;
+    }
     .menu-items {
         display: flex;
         flex-direction: column;
@@ -288,5 +295,18 @@ body {
 
     .first-column {
         border-right: none;
+    }
+
+    .footer {
+        font-size: 18px;
+    }
+
+    .footer-logo img {
+        width: 125px;
+    }
+
+    .nav {
+        flex-wrap: nowrap;
+        flex-direction: column;
     }
 }
