@@ -2,6 +2,10 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .navBackground {
     background-image: url(../img/metropolis-logo-circle.png);
     background-position: center;

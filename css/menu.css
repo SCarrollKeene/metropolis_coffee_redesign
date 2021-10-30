@@ -4,6 +4,7 @@ body {
     display: block;
     color: #212529;
     background-color: #fff;
+    scroll-behavior: smooth;
 }
 
 ::before,
