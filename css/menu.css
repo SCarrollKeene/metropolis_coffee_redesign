@@ -148,6 +148,12 @@ body {
     padding: 20px;
 }
 
+.menu-food,
+.menu-revolution  {
+    padding: 20px;
+    margin: 20px;
+}
+
 .our-coffee {
     display: flex;
     flex-direction: row;
@@ -261,4 +267,26 @@ body {
 
 .footer a:hover {
     color: whitesmoke;
+}
+
+@media only screen and (max-width: 768px) {
+    .menu-items {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .first-column {
+        border-right: none;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .menu-items {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .first-column {
+        border-right: none;
+    }
 }
