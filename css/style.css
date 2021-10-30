@@ -243,4 +243,17 @@ html {
         display: flex;
         flex-direction: column;
     }
+
+    .footer {
+        font-size: 18px;
+    }
+
+    .footer-logo img {
+        width: 125px;
+    }
+
+    .nav {
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
 }
