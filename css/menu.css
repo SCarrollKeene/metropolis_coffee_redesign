@@ -269,6 +269,19 @@ body {
     color: whitesmoke;
 }
 
+@media only screen and (max-width: 864px) {
+    .hero-body img {
+        height: 800px;
+        max-width: 100%;
+    }
+
+    .hero-text {
+        font-size: 20px;
+        width: 700px;
+        max-width: 100%;
+    }
+}
+
 @media only screen and (max-width: 768px) {
     .hero-body img {
         height: 740px;
@@ -297,7 +310,7 @@ body {
         max-width: 100%;
     }
     .hero-text {
-        font-size: 14px;
+        font-size: 16px;
         max-width: 90%;
     }
     .menu-items {
