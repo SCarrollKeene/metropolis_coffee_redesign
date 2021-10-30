@@ -270,6 +270,17 @@ body {
 }
 
 @media only screen and (max-width: 768px) {
+    .hero-body img {
+        height: 740px;
+        max-width: 100%;
+    }
+
+    .hero-text {
+        font-size: 20px;
+        width: 500px;
+        max-width: 100%;
+    }
+
     .menu-items {
         display: flex;
         flex-direction: column;
@@ -282,6 +293,7 @@ body {
 
 @media only screen and (max-width: 480px) {
     .hero-body img {
+        height: 740px;
         max-width: 100%;
     }
     .hero-text {
