@@ -230,3 +230,17 @@ html {
 .footer a:hover {
     color: whitesmoke;
 }
+
+@media only screen and (max-width: 768px) {
+    .location-placement {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    .location-placement {
+        display: flex;
+        flex-direction: column;
+    }
+}
