@@ -313,7 +313,7 @@ html {
     }
 
     .landingInner h1 {
-        font-size: 18px;
+        font-size: 26px;
     }
 
     .landingInner p {
@@ -367,6 +367,10 @@ html {
         margin: 0;
     }
 
+    .featured-copy-p1-small {
+        font-size: 16px;
+    }
+
     .featured p {
         font-size: 18px;
     }
@@ -386,6 +390,10 @@ html {
 
     .shop-inner {
         width: 90%;
+    }
+
+    .shop-inner p {
+        font-size: 18px;
     }
 
     .footer {
