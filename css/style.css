@@ -400,4 +400,8 @@ html {
         flex-wrap: nowrap;
         flex-direction: column;
     }
+
+    a.nav-link {
+        font-size: 16px;
+    }
 }
